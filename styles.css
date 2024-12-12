@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background: #0052cc;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.home-icon img {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* Marquee Styling */
+marquee {
+    background: #003d99;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar Styling */
+aside {
+    background: #eee;
+    padding: 20px;
+    width: 200px;
+}
+
+.sidebar {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #0052cc;
+    font-weight: bold;
+    display: block;
+}
+
+.sidebar li a:hover {
+    color: #003d99;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
